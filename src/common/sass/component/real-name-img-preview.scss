@@ -1,0 +1,58 @@
+/**
+** 实名的图片预览
+** 2018-03-24
+** 众人
+**/
+@import '../config.scss';
+/** 实名的图片预览 **/
+
+.realname-img-material {
+  .material-group {
+    height: 170px;
+    margin: 0px 0px 0 232px;
+    overflow: hidden;
+  }
+  .material-list {
+    margin-left: 20px;
+    .imgContainer {
+      position: relative;
+      width: 120px;
+      min-height: 120px;
+      text-align: center;
+      img {
+        width:120px;
+        height:120px;
+        border-radius: 4px;
+        max-height: 120px\9;
+      }
+    }
+    .title{
+      width: 120px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+      color:#888;
+    }
+    &:first-child {
+      margin-left: 0px;
+    }
+    &:hover .imgPreview {
+      height: 24px;
+    }
+  }
+  /*图片预览*/
+  .imgPreview {
+    position: absolute;
+    height: 0;
+    bottom: 10px;
+    width:120px;
+    text-align: center;
+    line-height: 24px;
+    background: $color;
+    color: #fff;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 0px 0px 4px 4px;
+  }
+}

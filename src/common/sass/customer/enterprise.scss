@@ -1,0 +1,177 @@
+/**
+** 客户管理样式
+** @author: cl*
+** 2017-11-27
+**/
+// @import '../config.scss';
+.enterprise {
+  .twoBtn {
+    .el-button + .el-button {
+      margin-left: 0
+    }
+    span {
+      padding: 2px;
+    }
+  }
+  .btn-box {
+    position: relative;
+    top: -6px;
+    .el-button {
+      width: 130px;
+      height: 30px;
+      padding: 0;
+    }
+  }
+  .dialog-box {
+    .dialog {
+      width: 600px;
+      .dialog-body {
+        padding: 30px 40px;
+        .searchBtn {
+          position: absolute;
+          top: 0px;
+          margin-left: 10px;
+          color:#fff;
+        }
+        .searchBtn:hover {
+          color:#fff;
+          background:#fb642a;
+          border: 1px solid #fb642a;
+        }
+        .el-form {
+          position: relative;
+          margin: 0px 0px 10px;
+          text-align: left;
+        }
+        .table-wrap {
+          box-shadow: 0px 0px 10px #ebedef;
+        }
+        .prompt {
+          background: #F8F8F8;
+          border-radius: 4px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          color: red;
+          // color: $grayColor;
+        }
+        .relevent-form {
+           margin-top: 30px;
+           .el-form {
+             text-align: center;
+           }
+           .el-form-item__label {
+             font-size: 16px;
+           }
+           .el-form-item .el-form-item__content {
+             padding-top: 1px;
+             text-align: left;
+             font-size: 16px;
+           }
+        }
+      }
+    }
+    .associated {
+      .el-form-item {
+        margin-bottom: 16px;
+      }
+      .el-table {
+        padding-bottom: 0;
+      }
+      .pagination-base {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .icon-style { // 图标样式
+    padding-top: 70px;
+    .icon {
+      font-size: 100px;
+      color: #C9C9C9;
+    }
+    div {
+      font-size: 16px;
+    }
+  }
+  // 表格无数据提示样式
+  .noDataMsg {
+    text-align: center;
+    // color: $blackColor;
+    color: black;
+  }
+  /*图片预览*/
+  .imgContainer img {
+    width:120px;
+    height:120px;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .imgContainer, .imgPreview{
+    position: absolute;
+    left: 14px;
+    width: 120px;
+    height: 96px;
+    border-radius: 0px 0px 4px 4px;
+  }
+  .imgContainer {
+    position: relative;
+    width: 120px;
+    height:120px;
+  }
+  .imgContainer .imgPreview {
+    position: absolute;
+    height: 0; bottom: 0;
+    width:120px;
+    text-align: center;
+    line-height: 24px;
+    // background: $color;
+    background: red;
+    color: #fff;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .imgContainer:hover .imgPreview {
+    height: 24px;
+  }
+  .image-content .title{
+    display:block;
+    text-align:center;
+  }
+  // 邀请企业
+  .createUser form{
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .shadowBox {
+    padding: 20px;
+    box-shadow: 0px 0px 24px #EBEDEF;
+  }
+  .right-tip {
+    padding-left: 20px;
+    font-size: 12px;
+    // color:$grayColor;
+    color: red;
+  }
+  .contactType .el-form-item__content {
+    width: 550px;
+  }
+  // 下游-基础信息
+  .info-group {
+    padding: 20px;
+  }
+  .list-item .item-name{
+    width: 200px;
+  }
+}
+// 确定邀请
+.invite-button {
+  text-align: center;
+  padding-top: 6px;
+  margin-left: -100px;
+  margin-bottom: 10px;
+}
+.invite-button button {
+  width: 200px;
+}

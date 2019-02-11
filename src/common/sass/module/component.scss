@@ -1,0 +1,122 @@
+// .b-voucher-tradeinfo {
+//   .el-form {
+//     border: 1px solid #d3d3d3;
+//     padding: 20px 0px 10px;
+//   }
+//   .el-dialog .el-form {
+//     margin-right: 45px;
+//     border: 0px solid #d3d3d3;
+//   }
+//   .el-dialog .el-dialog__body {
+//     padding: 0px 20px;
+//   }
+//   .upload-form .el-form-item {
+//     margin-bottom: 10px;
+//   }
+//   .el-form-item__content {
+//     width: 378px;
+//   }
+//   .el-upload{padding-top:10px;}
+//   .el-upload .box {
+//     width: 310px;
+//     height: 36px;
+//     padding: 5px 10px;
+//     line-height: 26px;
+//     border: 1px solid #d3d3d3;
+//     float: left;
+//     text-align: left;
+//     color: #333;
+//   }
+//   .el-upload .el-button {
+//     float: left;
+//     margin-left: -1px;
+//     border-top-left-radius: 0px !important;
+//     border-bottom-left-radius: 0px !important;
+//   }
+//
+//   .el-upload-list{margin-bottom: 10px;}
+//   .save-btn{
+//     width: 100%;
+//     text-align: center;
+//   }
+//   .contractInfo {
+//     float: right;
+//     line-height: 40px;
+//     cursor: pointer;
+//   }
+//   .contractInfo>span {
+//     border-radius: 50%;
+//     height: 15px;
+//     width: 15px;
+//     display: inline-block;
+//     background: #fb642a;
+//     vertical-align: middle;
+//   }
+//   .contractInfo span span {
+//     display: block;
+//     color: #FFFFFF;
+//     height: 15px;
+//     line-height: 13px;
+//     text-align: center;
+//   }
+// }
+// .tab-bar1 {
+// 	text-align: center;
+// 	height: 50px;
+//   box-shadow: 0 0 24px 0 #EBEDEF;
+//   border-radius: 4px;
+//   background-color: #fff;
+//   color: #000;
+//   .tab-group {
+//     display: inline-block;
+//     .tab-item {
+//       position: relative;
+//       display: inline-block;
+//       padding: 6px 15px;
+//       width: 120px;
+//       height: 50px;
+//       line-height: 38px;
+//       font-size: 16px;
+//       color: #666666;
+//       cursor: pointer;
+//       // border-bottom: 1px solid #000;
+//       // &:before {
+//       //   content: '';
+//       //   position: absolute;
+//       //   left: 0;
+//       //   bottom: 13px;
+//       //   width: 40px;
+//       //   height: 3px;
+//       //   background: yellow;
+//       //   // display: none;
+//       // }
+//       // &:first-child {
+//       //   // border-radius:10px 0px 0px 10px;
+//       // }
+//       // &:last-child {
+//       //   // border-radius: 0px 10px 10px 0px;
+//       // }
+//       // &:last-child:before {
+//       //   background: transparent;
+//       // }
+//       &.active {
+//         color: #FB642A;
+//         background: #fff;
+//       }
+//       &.active:before {
+//         // background: red;
+//         // color: red;
+//         width: 0px;
+//       }
+//       &.active:after {
+//         content: '';
+//         position: absolute;
+//         left: -1px;
+//         top: 13px;
+//         width: 1px;
+//         height: 14px;
+//         background: #fff;
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,182 @@
+@import '../config.scss';
+// 员工管理
+ // 员工管理-关联用户
+.employeeCont{
+.next { // 下一步按钮
+  background: #FFF6F3;
+  border: 1px solid $color;
+  color: #fff;
+  width: 200px;
+  margin: 0 auto;
+  box-shadow: 0 6px 16px 0 rgba(252,90,31,0.40);
+  background: linear-gradient(-180deg, #FE8239 0%, $color 100%);
+}
+//步骤条
+.el-steps .el-step__head .el-step__line.is-horizontal {width: 432px;}
+.realname-wrap{
+  width: 100%;
+}
+.tab-bar .tab-group .tab-item{
+  padding:0;
+}
+// 权限配置
+.info-manage{
+  position: relative;
+}
+.el-tree{
+  border: none;
+}
+// form表单
+.layout-realname .realname-wrap .el-form{
+  padding-bottom: 6px;
+}
+// 添加员工
+.content-style{
+  padding: 0;
+}
+.el-form-item{
+  margin-bottom: 30px;
+}
+.el-form-item:last-child{
+  margin-bottom:0;
+}
+// 编辑
+.cont{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.form-center{
+  width: 700px;
+  margin: 0 auto;
+}
+.panel {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.panel .panel-body{
+  padding:30px;
+}
+.tab-bar .tab-group .tab-item{
+  line-height: 36px;
+}
+.nextfu{
+  text-align: center;
+  margin: 30px;
+}
+// 权限树的titlt
+.tree-title {
+  position: absolute;
+  top: 8px;
+  left: 180px;
+}
+.add-cert .el-input__inner { // 添加证书条变白色
+  background: #fff;
+}
+// 激活按钮
+.el-input-group__append {
+  background: $color;
+  color: #fff;
+  border: none;
+  position: relative;
+  left: -1px;
+}
+// 步骤条
+.realname-wrap .el-steps {
+  margin: 0 auto 30px;
+}
+.realname-wrap .el-form {
+  margin-left: 130px;
+}
+.info-safe .el-input {
+  width: 500px;
+  height: 36px;
+}
+.table-wrap {
+  margin-bottom: 0;
+}
+.content-orange {
+  .conts {
+    width: 100%;
+  }
+  .cont-left {
+    width: 58%;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .cont-right {
+    width: 40%;
+    display: inline-block;
+    float: right;
+    // margin-left: 2%;
+    margin-left: 2%;
+  }
+  .cont-left .panel {
+    width: 100%;
+  }
+  .cont-right .panel {
+    width: 100%;
+    position: relative;
+  }
+  .cont-right .btn {
+    width: 200px;
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+    text-align: center;
+    border: none;
+    margin-left: -100px;
+    padding: 0;
+    border-radius: 20px;
+    height: 35px;
+  }
+  .cont-right .btn .el-button {
+    background-image: linear-gradient(-180deg, #FE8239 0%, #FC5A1F 100%);
+    box-shadow: 0 6px 16px 0 rgba(252,90,31,0.40);
+    border-radius: 20px;
+    color: #fff;
+    width: 200px;
+  }
+  .add-on {
+    font-weight: 400;
+    margin: 0 10px;
+  }
+  .add-btn {
+    width: 75px;
+    background: #F1EFEE;
+    border: none;
+    color: #fc5a1f;
+  }
+  .custom-tree-node {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+  }
+  .so-com {
+    width: 300px;
+  }
+  .add {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .comp-mask {
+    .dialog {
+      width: 500px;
+    }
+    .el-form-item__label {
+      width: 130px !important
+    }
+    .el-form-item__content {
+      margin-left: 130px !important
+    }
+  }
+  .panel-oparator {
+    position:relative;
+    z-index:1;
+  }
+}
+}

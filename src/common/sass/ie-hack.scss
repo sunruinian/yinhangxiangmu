@@ -1,0 +1,79 @@
+/************* IE9、IE10、IE11 适配问题 start ************/
+@media screen and (min-width:0\0) {
+	.supplier-voucher-assign-pay-amount .el-input{height: 24px; padding-top:1px;}
+	.supplier-voucher-assign-pay-amount .el-form-item__error{top:33px;}
+	.supplier-voucher-assign-payee .el-input{height: 24px;}
+	.supplier-voucher-assign-payee .el-form-item__error{top: 33px;}
+	.supplier-voucher-assign-attachment .form-label{float:left;}
+	.supplier-voucher-assign-attachment .span1{float:left;}
+	.supplier-voucher-assign-btn{display:block; width:300px; margin:0 auto; text-align:center;}
+	// .supplier-voucher-assign .td-remark .remark{margin:12px 38px 0px 29px\9!important;}
+	.supplier-voucher-assign .form-label.span2{display: inline-block;}
+	.supplier-voucher-assign .field.span1{display:inline-block;}
+  .searchBtn{vertical-align:top;}
+	.supplier-voucher-assign .td-remark .remark{left:23px;}
+	.supplier-voucher-assign .td-remark .textarea-remark{left:108px!important;}
+	// 表头select后省略号处理
+	.el-table-column--selection .cell,.el-table th > .cell {
+		text-overflow: clip;
+	}
+	.ie-label-mt label { margin-top: 3px; }
+}
+/************* IE9、IE10、IE11 适配问题 end ************/
+
+
+/************* IE9、IE10 适配问题 start ************/
+.fl-ie9 {
+	float: left\9;
+}
+.mb8-ie9 {
+	margin-bottom: 8px\9;
+}
+.center-ie9 {
+	display: block\9;
+	margin: 0 auto\9;
+}
+/************* IE9、IE10 适配问题 end ************/
+
+.supplier-voucher-assign .td-remark .remark{left:23px!important;}
+.supplier-voucher-assign .td-remark .textarea-remark{left:108px!important;}
+/************* IE10、IE11适配问题 ************/
+@media screen and(-ms-high-contrast:active),(-ms-high-contrast:none) {
+	.supplier-voucher-assign-pay-amount .el-input{height: 24px; padding-top:1px;}
+	.supplier-voucher-assign-pay-amount .el-form-item__error{top:33px;}
+	.supplier-voucher-assign-payee .el-input{height: 24px;}
+	.supplier-voucher-assign-payee .el-form-item__error{top: 33px;}
+	.supplier-voucher-assign-attachment .form-label{float:left;}
+	.supplier-voucher-assign-attachment .span1{float:left;}
+	.supplier-voucher-assign .td-remark .remark{left:23px!important;}
+	.supplier-voucher-assign .td-remark .textarea-remark{left:108px!important;}
+	.voucher-remark-title-text{margin-right: 39px!important;}
+	.supplier-voucher-assign-btn{display:block; width:300px; margin:0 auto; text-align:center;}
+	//凭证详情
+	// .supplier-voucher-assign .td-remark .remark{margin:12px 28px 0px 18px!important;}
+  .searchBtn{vertical-align:top; }
+
+	// 搜索按钮样式
+	.searchBtn {
+		// margin-top:1px;
+		margin-left:30px;
+		vertical-align:top;
+	}
+	// 字体样式
+	body {
+		font-size: 125%;
+	}
+	// input左侧label样式
+	.el-form-item__label {
+		padding-top: 11px;
+	}
+
+	// 添加融资意向
+	.intention-add .el-form-item__content{margin-top:4px;}
+	.intention-add .cnt .paragraph .limit-form-item .el-form-item{width: 130px;}
+	.intention-add .cnt .paragraph .limit-form-item .el-icon-date{right:66px;}
+	.intention-add .cnt .paragraph .limit-form-item .el-input__inner{margin-left: -50px;}
+	.intention-add .cnt .paragraph .limit-form-item .el-input__icon{right:75px;}
+	.intention-add .cnt .paragraph .limit-form-item .el-input__inner{margin-left: -56px;}
+}
+/************* IE10、IE11适配问题 end ************/

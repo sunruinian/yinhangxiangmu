@@ -1,0 +1,22 @@
+@import '../config.scss';
+  // 企业信息
+
+.enterCont {
+  .info-group .item-name { // 组件
+    width: 300px;
+  }
+  .address {
+    margin: -30px 0 0 310px;
+  }
+  .address-info {
+    display: inline-block;
+    width: 70%;
+    height: 60px;
+  }
+  .info-group .list-item.large-text .item-info {
+    margin-left: 312px;
+  }
+  .material-group {
+    margin-left: 312px;
+  }
+}

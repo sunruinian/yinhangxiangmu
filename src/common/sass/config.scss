@@ -1,0 +1,50 @@
+/**
+** 样式的配置中心
+** 2017-11-07
+**/
+$primaryColor: #fc5a1f;
+$primaryHoverColor: #fd7847;
+$primaryActiveColor: #fd4501;
+$borderRadiusSize: 4px;
+$borderColor: rgba(151,151,151, 0.13);
+@mixin defaultBorderRadius {border-radius: $borderRadiusSize;}
+@mixin BigBorderRadius {border-radius: 6px;}
+@mixin defaultBoxShadow {box-shadow: 0px 0px 24px #EBEDEF;}
+@mixin disabledButton{border-color:#DFDFDF; background: #F3F3F3;}
+
+// 新加的
+$baseColor:#fb642a;
+// header 背景 字体颜色
+$headerBackgroundColor: #FFFFFF;
+$headerColor: #333333;
+// left背景颜色
+$leftBAackgroundColor: #2D2D2D;
+$listInColor: #3E3E3E;
+$lisHover: #FB642A;
+$listOut: #FFFFFF;
+// 取消 和确定按钮的样式
+$BorderGround1: #FFF5F3;
+$BorderGround2: #FB642A;
+
+// 自带的component
+$inputBorder: #FB642A;
+$disabledBorder: #e3e3e3;
+$disabledWord: #ddb3b7;
+$disabledBg: #f4f4f4;
+$hoverColor: #fba72a;
+$btnBg: #fb642a;
+$btnActiveBg: #fd4c23;
+$color: #fb642a;
+$radioColor: #fe3748;
+$baseLightColor: #fff5f1;
+
+$searchBorder:#FB642A;
+// reset
+$activeColor: #fd4501;
+$hightlightColor: #fc5a1f;
+$blackColor: #000;  //#333
+$lightBlackColor: #666;
+$grayColor: #999;
+$lightGrayColor: #dfdfdf;
+$iconColor: #c9c9c9;
+$bgColor: #F8F8F8;

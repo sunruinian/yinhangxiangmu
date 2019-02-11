@@ -1,0 +1,134 @@
+@import './config.scss';
+
+/* 代码块 */
+@mixin defaultBorderRadius {border-radius: $borderRadiusSize;}
+@mixin borderRadius {border-radius: 4px;}
+@mixin bigBorderRadius {border-radius: 6px;}
+@mixin defaultBoxShadow {box-shadow: 0px 0px 24px #EBEDEF;}
+@mixin disabledButton{border-color:$lightGrayColor; background: #F3F3F3;}
+
+/* reset  */
+* {margin:0; padding:0; box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing:border-box;}
+html, body {height:100%; font-family: 微软雅黑,Arial, Helvetica, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+a {color:$blackColor; text-decoration: none;}
+a:hover, a:focus {color: $color;cursor: pointer}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+input:focus { border: 1px solid $color !important; outline-color:$color !important; outline:0px solid $color !important; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: $lightBlackColor; }
+input:-moz-placeholder, textarea:-moz-placeholder { color: $lightBlackColor; }
+input::-moz-placeholder, textarea::-moz-placeholder { color: $lightBlackColor; }
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: $lightBlackColor; }
+input::-ms-clear, input::-ms-reveal{display: none;}
+::-webkit-input-placeholder { /* WebKit browsers */ color: orange; }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: orange; }
+::-moz-placeholder { /* Mozilla Firefox 19+ */ color: orange; }
+:-ms-input-placeholder { /* Internet Explorer 10+ */ color: orange; }
+li{list-style:none;}
+p{margin:0px; line-height:25px;}
+
+/* 页面公用内容样式 */
+.fl {float: left;}
+.fr {float: right;}
+.clearfix {zoom:1}
+.clearfix:after {clear:both;display:block}
+.pointer{cursor: pointer;}
+
+.w300{width:300px;}
+.tc{text-align: center;}
+.center { margin : 0px auto; }
+
+.dashed-line { border-bottom: 1px solid #e4e4e4; margin: 0px auto; margin-top: 10px; }
+.solid-line { border-bottom: 1px solid #e4e4e4; margin: 0px auto; margin-top: 10px; }
+.under-line { width: 20px; height: 2px; background: #fff; border: 1px solid #fff; margin-bottom: -1px; margin-left: 15px }
+
+.color {color: $color;}
+.color-black {color: $blackColor;}
+.color-light-black { color: $lightBlackColor; }
+i.color-light-black { // 增加权重：避免i标签color偶被table-icon的color覆盖
+  color: $lightBlackColor;
+}
+.color-gray {color: $grayColor;}
+.color-light-grayk {color: $lightGrayColor;}
+.color-highlight {color: $color;}
+.require { color: #e82f3a; font-size: 14px; vertical-align: middle; }
+
+.pointer{cursor: pointer;}
+.router-link{text-decoration:none}
+.box-shadow{@include defaultBoxShadow;}
+.border-radius{@include defaultBorderRadius;}
+.border-radius-big{@include bigBorderRadius;}
+
+/************ margin、padding 常用相关样式 start ***********/
+.m0{margin:0px !important;} .m15{margin:15px !important;} .mt3{margin-top:3px;} .ml18{margin-left:18px;}
+.ml0{margin-left:0px !important;}		.ml5{margin-left:5px !important;}		.ml10{margin-left:10px !important;}		.ml15{margin-left:15px !important;}		.ml20{margin-left:20px !important;}		.ml30{margin-left:30px !important;}		.ml40{margin-left:40px !important;}
+.mb0{margin-bottom:0px !important;} .mb5{margin-bottom:5px !important;} .mb10{margin-bottom:10px !important;} .mb15{margin-bottom:15px !important;} .mb20{margin-bottom:20px !important;} .mb30{margin-bottom:30px !important;}	.mb40{margin-bottom:40px !important;}
+.mt0{margin-right:0px !important;}	.mr5{margin-right:5px !important;}	.mr10{margin-right:10px !important;}	.mr15{margin-right:15px !important;}	.mr20{margin-right:20px !important;}	.mr30{margin-right:30px !important;}	.mr40{margin-right:40px !important;}	.mr100{margin-right:100px !important;}
+.mt0{margin-right:0px !important;}	.mt5{margin-top:5px !important;}	.mt10{margin-top:10px !important;}		.mt15{margin-top:15px !important;}		.mt20{margin-top:20px !important;}		.mt30{margin-top:30px !important;}		.mt40{margin-top:40px !important;}
+/************* margin 常用相关样式 end ************/
+
+/************* padding 常用相关样式 start ************/
+.pb0{padding-bottom:0px !important;}	.pb15{padding-bottom:15px !important;}	.pb20{padding-bottom:20px !important;}	.pb30{padding-bottom:30px !important;}	.pb40{padding-bottom:40px !important;}
+.pl0{padding-left:0px !important;} 		.pl15{padding-left:15px !important;}		.pl20{padding-left:20px !important;}		.pl30{padding-left:30px !important;}		.pl40{padding-left: 40px !important;}
+.pt0{padding-top:0px !important;}			.pt15{padding-top:15px !important;}			.pt20{padding-top:20px !important;}			.pt30{padding-top:30px !important;}			.pt40{padding-top:40px !important;}
+.pr0{padding-right:0px !important;}		.pr15{padding-right:15px !important;}		.pr20{padding-right:20px !important;}		.pr30{padding-right:30px !important;}		.pr40{padding-right:40px !important;}
+.font10{
+	font-size: 10px;
+}
+.font0{
+	font-size: 12px;
+}
+/**正文**/
+.font1{
+	font-size: 14px;
+}
+/**小标题**/
+.font2{
+	font-size: 16px;
+}
+/**标题**/
+.font3{
+	font-size: 18px;
+}
+/**大标题**/
+.font4{
+	font-size: 20px;
+}
+/*****font-size end*******/
+.radius-4 {
+	border-radius: 4px;
+}
+
+.radius-8 {
+	border-radius: 8px;
+}
+
+.radius-12 {
+	border-radius: 12px;
+}
+
+.roof {
+	margin: 0px auto;
+	position: relative;
+	width: 100%;
+}
+
+.roof .background {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+/* svg 的图标 */
+.icon {
+  /* 通过设置 font-size 来改变图标大小 */
+  width: 1em; height: 1em;
+  /* 图标和文字相邻时，垂直对齐 */
+  vertical-align: -0.15em;
+  /* 通过设置 color 来改变 SVG 的颜色/fill */
+  fill: currentColor;
+  /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+     normalize.css 中也包含这行 */
+  overflow: hidden;
+}

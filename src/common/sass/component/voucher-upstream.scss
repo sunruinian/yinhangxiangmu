@@ -1,0 +1,183 @@
+.operation-detail{
+	position:relative;
+	width:100%;
+	width:1000px;
+	margin:0 auto;
+
+}
+.operation-detail .box {
+	width:100%;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 24px 0 #EFEFEF;
+  border-radius: 6px;
+}
+.operation-detail .box img{
+	width:800px;
+}
+
+.operation-detail .box .title{
+	display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px auto;
+    text-align: center;
+    margin-top:15px;
+}
+.operation-detail .box .secondary{ display: block; margin-top: 21px; font-size: 14px; position: relative; color: #888888; }
+
+.operation-detail .box .no{
+	display: block;
+	position:absolute;
+	color: #666;
+	top:50px;
+	right:15px;
+}
+
+.operation-detail .box .header{
+	border-radius: 6px 6px 0 0;
+	height: 60px; width:100%;
+	background: transparent;
+	overflow: hidden;
+	background-color: #F0F0F0;
+	position: relative;
+}
+.operation-detail .box .header>p{
+	height:30px;
+	padding-left: 182px;
+	width:40%;
+	position: absolute;
+	right: 0px;
+	top:23px;
+	font-size: 14px;
+	color: #FB642A;
+
+}
+.operation-detail .box .header .header_left{
+	width:50%;
+	height:50px;
+	text-indent: 20px;
+	float:left;
+	margin-top: 5px;
+}
+.operation-detail .box .header .header_left>div{
+	font-size: 12px;
+  color: #999999;
+}
+.operation-detail .box .header .header_left>.p{font-size: 14px;color: #333333;line-height: 25px;}
+.operation-detail .box .header .cashTime{
+	margin-top: 4px;
+  display: block;
+}
+.operation-detail .box .header .title{
+	// width:50px;
+	letter-spacing: 7px;
+}
+.certificatie-tbale-area{
+	// margin-top:25px;
+	// border: 1px solid red;
+}
+.certificatie-tbale-area .content_top{
+	width:85%;
+	height:154px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-top: 28px;
+	border-bottom: 1px solid #DFDFDF;
+}
+.certificatie-tbale-area .content_top .content_top_right{
+	padding-left: 103px;
+}
+.certificatie-tbale-area .content_top .content_top_left,.certificatie-tbale-area .content_top .content_top_right{
+	width: 50%;
+	height:100%;
+	float:left;
+	background-color: #fff;
+}
+.certificatie-tbale-area .content_top .content_top_left>.pay,.certificatie-tbale-area .content_top .content_top_right>.pay{
+	height:27px;
+	text-indent: 3px;
+	font-size: 14px;
+	color:#333333;
+}
+.certificatie-tbale-area .content_top .content_top_left>.payName,.certificatie-tbale-area .content_top .content_top_right>.payName{
+	height:28px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #333333;
+	text-indent: 20px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	overflow: hidden;
+}
+.certificatie-tbale-area .content_foot {
+	width:100%;
+	min-height: 190px;
+	background-color: #fff;
+	padding-left: 76px;
+	border-radius: 0 0 6px 6px;
+}
+.certificatie-tbale-area .content_foot>.money_header{
+	width: 100%;
+	height:85px;
+	background: #fff;
+}
+.content_foot .money_header .money_header_left{
+	height: 100%;
+	width:46%;
+	background-color: #fff;
+	float: left;
+}
+.content_foot .money_header .money_header_left .moneyPay{
+	padding-top: 17px;
+	height:47px;
+	font-size: 12px;
+  color: #999999;
+	background-color: #fff;
+}
+ .money_header .money_header_left .moneyNume{
+	 height:38px;
+	 font-family: "SourceHanSansCN-Medium";
+	 font-size: 24px;
+	 color: #FB642A;
+ }
+.money_header_right{
+	width: 54%;
+	float: left;
+	height:85px;
+}
+.money_header_right>table{
+	height:85px;
+	width: 100%;
+}
+.money_header_right>table tr{
+	width:100%;
+}
+.content_foot .money_header_right>table .hd>.center{
+	padding-top: 21px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #999999;
+	height:45px;
+	width:40px;
+}
+.content_foot .money_header_right>table .bd tr{
+	font-size: 16px;
+	color: #333333;
+	font-family: "SourceHanSansCN-Medium";
+	padding-top: 10px;
+}
+.content_foot .money_time{
+	width: 100%;
+	height: 105px;
+	background: #fff;
+}
+.money_time .other-group .other-item{width:100%;word-break:break-all; line-height: 16px;margin-bottom: 7px;}
+.money_time .other-group .other-item .bank{font-size: 14px}
+.money_time .other-group .other-item span {margin-left: 10px;color: #333333;}
+.money_time .other-group label{display: inline-block; width:150px; font-size:14px; text-align: right;font-weight: bold;color: #666666;}
+.money_time .other-group .remind{
+	color: #FB642A;
+	font-size: 12px;
+}

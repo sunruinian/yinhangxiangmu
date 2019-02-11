@@ -1,0 +1,140 @@
+
+
+
+#created{
+  .wrapper{
+    margin: 0 auto;
+    width: 424px;
+    .cancel{
+      background: #FFF5F3;
+      border: 1px solid #FB642A;
+      border-radius: 4px;
+      width: 160px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      font-family: "SourceHanSansCN-Medium";
+      font-size: 14px;
+      color: #FB642A;
+    }
+    .el-button{
+      padding: 0;
+    }
+    .sure{
+      background: #FB642A;
+      border: 1px solid #FB642A;
+      border-radius: 4px;
+      width: 160px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      font-family: "SourceHanSansCN-Medium";
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+    .back{
+      background: #FCA71F;
+      border: 1px solid #FCA71F;
+      color: #FFFFFF;
+    }
+  }
+  #voucherDref{
+    .gexi{
+      .el-button{
+        padding: 0;
+      }
+    }
+  }
+}
+#voucherCommited{
+  .searchPostion{
+    // position: absolute;
+    right: -172px;
+    top: -28px;
+  }
+}
+#voucherBounced{
+  .searchPostion{
+    position: absolute;
+    right: -14px;
+    top: 0px;
+  }
+}
+#voucherDeled{
+  .searchPostion{
+    // position: absolute;
+    right: -14px;
+    top: 0px;
+  }
+}
+#voucherApproving{
+  .searchPostion{
+    right: -14px;
+    top: -12px;
+  }
+}
+#approvedPass{
+  .searchPostion{
+    // position: absolute;
+    right: -483px;
+    top: -31px;
+  }
+}
+#approvedBounced{
+  .padd{
+    padding-left: 120px;
+  }
+  .searchPostion{
+    right: 87px;
+    top: 15px;
+  }
+}
+#query{
+  .searchPostion{
+    position: absolute;
+    right: 25px;
+    top: 34px;
+  }
+}
+#queryRecord{
+  .searchPostion{
+    position: absolute;
+    right: 56px;
+    top: 85px;
+  }
+}
+#sign{
+  .searchPostion{
+    position: absolute;
+    right: 56px;
+    top: 61px;
+  }
+}
+#assignApply{
+  .searchPostion{
+    position: absolute;
+    right: 65px;
+    top: 59px;
+  }
+}
+#assignRecord{
+  .searchPostion{
+    position: absolute;
+    right: 65px;
+    top: 59px;
+  }
+}
+#assignApprove{
+  .searchPostion{
+    position: absolute;
+    right: -22px;
+    top: 0px;
+  }
+}
+.assignApproveRecord{
+  .searchPostion{
+    position: absolute;
+    right: -22px;
+    top: 0px;
+  }
+}
